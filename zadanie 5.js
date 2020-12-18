@@ -34,7 +34,7 @@ class Device {
   teapot.Dop();
   teapot.Switch();
   
-  const razor = new Device('Бритва', 'Philips', 5, 0.28, false, 'роторная');
+  let razor = new Device('Бритва', 'Philips', 5, 0.28, false, 'роторная');
   console.log(razor.Show);
   razor.Dop();
   razor.Switch();
